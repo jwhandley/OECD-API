@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oecd_api"
+version = "0.0.1"
+authors = [{ name = "John Handley", email = "jwhandley17@gmail.com" }]
+description = "A simple package for making requests to the OECD data API and returning the result as a pandas dataframe"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["requests", "pandas", "lxml"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jwhandley/OECD-API"
+Issues = "https://github.com/jwhandley/OECD-API/issues"
